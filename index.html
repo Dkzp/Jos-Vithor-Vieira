@@ -1,0 +1,55 @@
+
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Carro Interativo com Herança</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+
+    <!-- Carro Base (Pagani Zonda R) -->
+    <h2>Carro Base</h2>
+    <div id="carro-quadrado">
+      <img id="carro-imagem" src="pagani R.jpg" alt="Imagem do Carro">
+      <p id="status">Desligado</p>
+    </div>
+    <p id="velocidade">Velocidade: 0 km/h</p>
+    <button id="ligar">Ligar</button>
+    <button id="desligar">Desligar</button>
+    <button id="acelerar">Acelerar</button>
+    <audio id="som-ligar" src="som_carro_ligando.mp3"></audio>
+
+    <!-- Carro Esportivo -->
+    <h2>Carro Esportivo</h2>
+    <div id="carro-esportivo-quadrado" class="carro-esportivo-quadrado">
+        <img id="carro-esportivo-imagem" src="fcr.webp" alt="">
+        <p id="status-esportivo">Desligado</p>
+    </div>
+    <p id="velocidade-esportivo">Velocidade: 0 km/h</p>
+    <button id="ligar-esportivo">Ligar</button>
+    <button id="desligar-esportivo">Desligar</button>
+    <button id="acelerar-esportivo">Acelerar</button>
+    <button id="turbo-esportivo">Turbo</button>
+
+
+    <!-- Caminhão -->
+    <h2>Caminhão</h2>
+     <div id="caminhao-quadrado" class="carro-quadrado-caminhão">
+        <img id="caminhao-imagem" src="Scania-30-G.webp" alt="Imagem do Caminhão">
+        <p id="status-caminhao">Desligado</p>
+    </div>
+    <p id="velocidade-caminhao">Velocidade: 0 km/h</p>
+    <label for="carga">Carga (kg):</label>
+    <input type="number" id="carga" value="0">
+    <button id="carregar-caminhao">Carregar</button>
+    <button id="ligar-caminhao">Ligar</button>
+    <button id="desligar-caminhao">Desligar</button>
+    <button id="acelerar-caminhao">Acelerar</button>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
